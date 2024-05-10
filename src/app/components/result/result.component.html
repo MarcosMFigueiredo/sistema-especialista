@@ -1,0 +1,102 @@
+<div class="main-container">
+<section>
+  <div class="client-detail">
+    <div>
+      <h1 id="title">Custom PC</h1>
+      <img src="../../../assets/imgs/gabinete.webp" width="450" alt="gabinete">
+    </div>
+    <div class="card-container">
+      <div id="totalCost" class="card">
+        <h3>Custo Total</h3>
+        <span>R$ {{precoTotal}}</span>
+      </div>
+      <div id="specialNotes" class="card">
+        <h3>Observações</h3>
+        <p
+          *ngIf="componenteSelecionado[2].placaDeVideo.marca.toLowerCase() !== dadosUsuario.fabricanteDaPlacaDeVideo.toLowerCase() ">
+          Não foi possível encontrar uma placa de vídeo com a marca especificada ou nenhuma marca foi selecionada </p>
+        <p
+          *ngIf="componenteSelecionado[2].placaDeVideo.marca.toLowerCase() === dadosUsuario.fabricanteDaPlacaDeVideo.toLowerCase()">
+          Sem Observações</p>
+      </div>
+      <div id="card-requirements" class="card">
+        <h3>Requisitos desejados</h3>
+        <div class="requirements-item">
+          <h4>Objetivo</h4>
+          <span>{{dadosUsuario.perfil}}</span>
+        </div>
+        <div class="requirements-item">
+          <h4>Faixa de preço</h4>
+          <span *ngIf="dadosUsuario.faixaPreco.min !== 1000">R$ {{dadosUsuario.faixaPreco.min}},00 - R$ {{dadosUsuario.faixaPreco.max}},00</span>
+          <span *ngIf="dadosUsuario.faixaPreco.min === 1000">R$ {{dadosUsuario.faixaPreco.max}},00</span>
+        </div>
+        <div class="requirements">
+          <div class="requirements-item">
+            <h4>Tipo do processador</h4>
+            <span>{{dadosUsuario.tipoDeProcessador}}</span>
+          </div>
+          <div class="requirements-item">
+            <h4>Tipo da Placa de Vídeo</h4>
+            <span>{{dadosUsuario.tipoDePlacaDeVideo}}</span>
+          </div>
+          <div class="requirements-item">
+            <h4>Marca Selecionada</h4>
+            <span>{{dadosUsuario.fabricanteDaPlacaDeVideo}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="card components" *ngFor="let componentes of dadosComponentes; index as i">
+
+    <img *ngIf="tiposComponentes[i] !== 'fonte' && tiposComponentes[i] !== 'gabinete'"
+      [src]="caminhoImgs + tiposComponentes[i] + '.svg' " width="90" alt="">
+    <img *ngIf="tiposComponentes[i] === 'fonte' || tiposComponentes[i] === 'gabinete'"
+      [src]="caminhoImgs + tiposComponentes[i] + '.png' " width="90" alt="">
+    <div class="components-item">
+      <div>
+        <h4 class="title-components">{{nomesComponentes[i]}}</h4>
+        <p id="descricao-{{tiposComponentes[i]}}" >{{componentes}}</p>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="title-components">Preço</h4>
+      <span>{{componenteSelecionado[i][tiposComponentes[i]].preco}}</span>
+    </div>
+    <button class="change-component" id="{{tiposComponentes[i]}}" (click)="mostrarModal(tiposComponentes[i])">Alterar</button>
+  </div>
+</section>
+
+<div class="btn-container">
+  <button  class="btn-finais" onclick="alert('Configurações Salvas')">Salvar</button>
+  <button  class="btn-finais" (click)="reiniciar()">Reiniciar</button>
+</div>
+
+<div class="modal" [style]="modal">
+  <div class="modal-content">
+    <span class="close" (click)="fecharModal()">&times;</span>
+    <h2>Escolha uma opção</h2>
+    <div class="options">
+      <div class="card components" *ngFor="let componenteModal of exibirListaDeComponentesModal; index as i" >
+        <img [src]="caminhoImgsModal" width="90" alt="">
+        <div class="components-item">
+          <div >
+            <h4 class="title-components">{{nomesComponentesModal}}</h4>
+            <p id="">{{componenteModal}}</p>
+          </div>
+        </div>
+        <div>
+          <h4 class="title-components">Preço</h4>
+          <span >{{exibirListaDePrecoComponenteModal[i]}}</span>
+        </div>
+        <button class="change-component" (click)="atualizarComponente(componenteModal, exibirListaDePrecoComponenteModal[i]); ">Alterar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>

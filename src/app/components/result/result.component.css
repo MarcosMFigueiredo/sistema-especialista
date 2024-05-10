@@ -1,0 +1,114 @@
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.client-detail {
+  padding: 20px;
+  display: flex;
+}
+
+.card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 100px;
+  border: solid 2px #52555b;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #36393f;
+}
+
+.card h3 {
+  color: #d0d2d8;
+}
+
+.card h4,
+span,
+p {
+  color: #93969a;
+}
+
+#card-requirements {
+  width: 720px;
+  height: 345px;
+  grid-column: 1/4;
+  align-self: flex-start;
+  padding: 15px;
+}
+
+#totalCost h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+#totalCost span {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.requirements-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #52555b;
+}
+
+.components {
+  margin-top: 5px;
+  max-width: 1190px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 70% 10% 10%;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+
+.components .title-components {
+  margin-bottom: 8px;
+  color: #d0d2d8;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.change-component {
+  border: none;
+  background-color: #d63de6;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.change-component:hover {
+  background-color: #b434de;
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-finais {
+  width: 100px;
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  background-color: #d63de6;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.btn-finais :hover {
+  background-color: #b434de;
+}

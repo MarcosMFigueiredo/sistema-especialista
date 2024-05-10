@@ -1,0 +1,1887 @@
+{
+  "processadores": {
+    "AMD": [
+      {
+        "nome": "AMD Athlon 3000G",
+        "cores": 2,
+        "threads": 4,
+        "clock_base": "3.5GHz",
+        "clock_turbo": null,
+        "cache": "5MB",
+        "socket": "AM4",
+        "preco": "R$ 411,00"
+      },
+      {
+        "nome": "AMD Ryzen 3 4100",
+        "cores": 4,
+        "threads": 8,
+        "clock_base": "3.8GHz",
+        "clock_turbo": "4.0GHz",
+        "cache": "6MB",
+        "socket": "AM4",
+        "preco": "R$ 470,00"
+      },
+      {
+        "nome": "AMD Ryzen 3 3200G",
+        "cores": 4,
+        "threads": 4,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.0GHz",
+        "cache": "6MB",
+        "socket": "AM4",
+        "preco": "R$ 550,00"
+      },
+      {
+        "nome": "AMD Ryzen 5 4500",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.1GHz",
+        "cache": "11MB",
+        "socket": "AM4",
+        "preco": "R$ 564,00"
+      },
+      {
+        "nome": "AMD Ryzen 5 4600G",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.7GHz",
+        "clock_turbo": "4.2GHz",
+        "cache": "11MB",
+        "socket": "AM4",
+        "preco": "R$ 700,00"
+      },
+      {
+        "nome": "AMD Ryzen 5 5500",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.2GHz",
+        "cache": "19MB",
+        "socket": "AM4",
+        "preco": "R$ 764,00"
+      },
+      {
+        "nome": "AMD Ryzen 5 5600GT",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.6GHz",
+        "cache": "19MB",
+        "socket": "AM4",
+        "preco": "R$ 999,99"
+      },
+      {
+        "nome": "AMD Ryzen 5 5600",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.5GHz",
+        "clock_turbo": "4.4GHz",
+        "cache": "35MB",
+        "socket": "AM4",
+        "preco": "R$ 1.011,00"
+      },
+      {
+        "nome": "AMD Ryzen 5 5600X",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "3.7GHz",
+        "clock_turbo": "4.6GHz",
+        "cache": "35MB",
+        "socket": "AM4",
+        "preco": "R$ 1.223,00"
+      },
+      {
+        "nome": "AMD Ryzen 7 5700G",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "3.8GHz",
+        "clock_turbo": "4.6GHz",
+        "cache": "20MB",
+        "socket": "AM4",
+        "preco": "R$ 1.317,00"
+      },
+      {
+        "nome": "AMD Ryzen 7 5700X",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "3.4GHz",
+        "clock_turbo": "4.6GHz",
+        "cache": "36MB",
+        "socket": "AM4",
+        "preco": "R$ 1.410,00"
+      },
+      {
+        "nome": "AMD Ryzen 7 5800X",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "3.8GHz",
+        "clock_turbo": "4.7GHz",
+        "cache": "36MB",
+        "socket": "AM4",
+        "preco": "R$ 1.716,00"
+      },
+      {
+        "nome": "AMD Ryzen 9 5950X",
+        "cores": 16,
+        "threads": 32,
+        "clock_base": "3.4GHz",
+        "clock_turbo": "4.9GHz",
+        "cache": "72MB",
+        "socket": "AM4",
+        "preco": "R$ 3.411,00"
+      },
+      {
+        "nome": "AMD Ryzen 9 7900",
+        "cores": 12,
+        "threads": 24,
+        "clock_base": "3.7GHz",
+        "clock_turbo": "5.4GHz",
+        "cache": "76MB",
+        "socket": "AM5",
+        "preco": "R$ 2.941,00"
+      },
+      {
+        "nome": "AMD Ryzen 9 7900X",
+        "cores": 12,
+        "threads": 24,
+        "clock_base": "4.7GHz",
+        "clock_turbo": "5.6GHz",
+        "cache": "76MB",
+        "socket": "AM5",
+        "preco": "R$ 3.023,00"
+      }
+    ],
+    "Intel": [
+      {
+        "nome": "Intel Core i3-10100F",
+        "cores": 4,
+        "threads": 8,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "6MB",
+        "socket": "LGA1200",
+        "preco": "R$ 443,00"
+      },
+      {
+        "nome": "Intel Core i3-10100",
+        "cores": 4,
+        "threads": 8,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "6MB",
+        "socket": "LGA1200",
+        "preco": "R$ 600,00"
+      },
+      {
+        "nome": "Intel Core i3-12100F",
+        "cores": 4,
+        "threads": 8,
+        "clock_base": "3.3GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "12MB",
+        "socket": "LGA1700",
+        "preco": "R$ 658,00"
+      },
+      {
+        "nome": "Intel Core i3-12100",
+        "cores": 4,
+        "threads": 8,
+        "clock_base": "3.3GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "12MB",
+        "socket": "LGA1700",
+        "preco": "R$ 941,00"
+      },
+      {
+        "nome": "Intel Core i5-10400F",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "2.9GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "12MB",
+        "socket": "LGA1200",
+        "preco": "R$ 699,99"
+      },
+      {
+        "nome": "Intel Core i5-10400",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "2.9GHz",
+        "clock_turbo": "4.3GHz",
+        "cache": "12MB",
+        "socket": "LGA1200",
+        "preco": "R$ 792,00"
+      },
+      {
+        "nome": "Intel Core i5-10600KF",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "4.1GHz",
+        "clock_turbo": "4.8GHz",
+        "cache": "12MB",
+        "socket": "LGA1200",
+        "preco": "R$ 1.116,00"
+      },
+      {
+        "nome": "Intel Core i5-12400F",
+        "cores": 6,
+        "threads": 12,
+        "clock_base": "2.5GHz",
+        "clock_turbo": "4.4GHz",
+        "cache": "18MB",
+        "socket": "LGA1700",
+        "preco": "R$ 912,00"
+      },
+      {
+        "nome": "Intel Core i7-10700F",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "2.9GHz",
+        "clock_turbo": "4.8GHz",
+        "cache": "16MB",
+        "socket": "LGA1200",
+        "preco": "R$ 1.352,00"
+      },
+      {
+        "nome": "Intel Core i7-11700KF",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "5.0GHz",
+        "cache": "16MB",
+        "socket": "LGA1200",
+        "preco": "R$ 1.999,99"
+      },
+      {
+        "nome": "Intel Core i7-11700K",
+        "cores": 8,
+        "threads": 16,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "5.0GHz",
+        "cache": "16MB",
+        "socket": "LGA1200",
+        "preco": "R$ 2.117,00"
+      },
+      {
+        "nome": "Intel Core i7-12700F",
+        "cores": 12,
+        "threads": 20,
+        "clock_base": "2.1GHz",
+        "clock_turbo": "4.9GHz",
+        "cache": "25MB",
+        "socket": "LGA1700",
+        "preco": "R$ 1.904,00"
+      },
+      {
+        "nome": "Intel Core i7-12700K",
+        "cores": 12,
+        "threads": 20,
+        "clock_base": "3.6GHz",
+        "clock_turbo": "5.0GHz",
+        "cache": "25MB",
+        "socket": "LGA1700",
+        "preco": "R$ 2.300,00"
+      },
+      {
+        "nome": "Intel Core i9-12900KF",
+        "cores": 16,
+        "threads": 24,
+        "clock_base": "3.2GHz",
+        "clock_turbo": "5.2GHz",
+        "cache": "30MB",
+        "socket": "LGA1700",
+        "preco": "R$ 2.700,00"
+      },
+      {
+        "nome": "Intel Core i9-12900F",
+        "cores": 16,
+        "threads": 24,
+        "clock_base": "2.4GHz",
+        "clock_turbo": "5.1GHz",
+        "cache": "30MB",
+        "socket": "LGA1700",
+        "preco": "R$ 3.058,00"
+      }
+    ]
+  },
+  "placas_mae": {
+    "AMD": [
+      {
+        "marca": "Mancer B450M-DA",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD B450",
+        "modelo": "MCR-B450M-DA",
+        "preco": "R$ 400,00"
+      },
+      {
+        "marca": "Biostar B450MHP",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD B450",
+        "modelo": "B450MHP",
+        "preco": "R$ 432,00"
+      },
+      {
+        "marca": "MSI B450M-A Pro Max",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD B450",
+        "modelo": "B450-A-PRO-MAX",
+        "preco": "R$ 447,00"
+      },
+      {
+        "marca": "ASRock A520M-HVS",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD A520",
+        "modelo": "A520M-HVS",
+        "preco": "R$ 505,00"
+      },
+      {
+        "marca": "Asus PRIME A520M-E",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD A520",
+        "modelo": "PRIME A520M-E",
+        "preco": "R$ 517,00"
+      },
+      {
+        "marca": "Gigabyte A520M K V2",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD A520",
+        "modelo": "A520M-K-V2",
+        "preco": "R$ 529,00"
+      },
+      {
+        "marca": "AsRock A620M-HDV/M.2",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD A620",
+        "modelo": "A620M-HDV-M2",
+        "preco": "R$ 789,00"
+      },
+      {
+        "marca": "Gigabyte B450M GAMING",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD B450",
+        "modelo": "Não especificado",
+        "preco": "R$ 717,00"
+      },
+      {
+        "marca": "Gigabyte B650M H",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD B650",
+        "modelo": "B650M-H",
+        "preco": "R$ 894,00"
+      },
+      {
+        "marca": "Gigabyte B550M DS3H AC",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "M-ATX",
+        "chipset": "AMD B550",
+        "modelo": "B550M-DS3H-AC",
+        "preco": "R$ 930,00"
+      },
+      {
+        "marca": "Asus PRIME A620M-K",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD A620",
+        "modelo": "PRIME-A620M-K",
+        "preco": "R$ 941,00"
+      },
+      {
+        "marca": "Asus TUF Gaming A620M-PLUS",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD A620",
+        "modelo": "TUF-GAMING-A620M-PLUS",
+        "preco": "R$ 1.176,00"
+      },
+      {
+        "marca": "AsRock A620M PRO RS WiFi",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD A620",
+        "modelo": "A620M-PRO-RS-WIFI",
+        "preco": "R$ 1.411,75"
+      },
+      {
+        "marca": "Gigabyte B550 Aorus Elite V2",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "ATX",
+        "chipset": "AMD B550",
+        "modelo": "Não especificado",
+        "preco": "R$ 1.509,00"
+      },
+      {
+        "marca": "Gigabyte B550 Aorus Elite AX V2",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "ATX",
+        "chipset": "AMD B550",
+        "modelo": "B550 AORUS ELITE AX V2",
+        "preco": "R$ 1.764,00"
+      },
+      {
+        "marca": "Gigabyte B650M Aorus Elite",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD B650",
+        "modelo": "B650M-AORUS-ELITE",
+        "preco": "R$ 1.764,00"
+      },
+      {
+        "marca": "Asus TUF Gaming B650M Plus",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "M-ATX",
+        "chipset": "AMD B650",
+        "modelo": "TUF-GAMING-B650M-PLUS",
+        "preco": "R$ 1.882,00"
+      },
+      {
+        "marca": "Asus ROG Strix B550-A Gaming",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "ATX",
+        "chipset": "AMD B550",
+        "modelo": "ROG STRIX B550-A GAMING",
+        "preco": "R$ 1.999,99"
+      },
+      {
+        "marca": "Asus TUF Gaming B550-PRO",
+        "memoria": "DDR4",
+        "socket": "AM4",
+        "formato": "ATX",
+        "chipset": "AMD B550",
+        "modelo": "TUF-GAMING-B550-PRO",
+        "preco": "R$ 2.117,00"
+      },
+      {
+        "marca": "Msi Mpg B650 Edge Wifi",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "Não especificado",
+        "chipset": "AMD B650",
+        "modelo": "MPG-B650-EDGE-WIFI",
+        "preco": "R$ 2.294,00"
+      },
+      {
+        "marca": "Gigabyte B650 Aorus Elite AX Ice",
+        "memoria": "DDR5",
+        "socket": "AM5",
+        "formato": "ATX",
+        "chipset": "AMD B650",
+        "modelo": "B650-AORUS-ELITE-AX-ICE",
+        "preco": "R$ 2.705,00"
+      }
+    ],
+    "Intel": [
+      {
+        "marca": "Gigabyte H410M H V2",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H470 Express",
+        "modelo": "H410M H V2",
+        "preco": "R$ 420,99"
+      },
+      {
+        "marca": "MSI B560M PRO-E",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H470",
+        "modelo": "Intel B560",
+        "preco": "R$ 449,99"
+      },
+      {
+        "marca": "Biostar H510M",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H510",
+        "modelo": "H510MHP-2.0",
+        "preco": "R$ 552,00"
+      },
+      {
+        "marca": "Mancer H510M-DA",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H510",
+        "modelo": "MCR-H510M-DA",
+        "preco": "R$ 552,00"
+      },
+      {
+        "marca": "Gigabyte H510M K V2",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H470",
+        "modelo": "H510M-K-V2",
+        "preco": "R$ 588,00"
+      },
+      {
+        "marca": "Asus Prime H510M-K",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H510",
+        "modelo": "PRIME H510M-K",
+        "preco": "R$ 588,00"
+      },
+      {
+        "marca": "Asus PRIME H510M-A",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "Intel H510",
+        "modelo": "PRIME-H510M-A",
+        "preco": "R$ 764,00"
+      },
+
+      {
+        "marca": "Asus TUF Gaming H510M-PRO",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "ATX",
+        "chipset": "B550",
+        "modelo": "TUF-GAMING-B550-PRO",
+        "preco": "R$ 2.117,00"
+      },
+
+      {
+        "marca": "Gigabyte B560M GAMING HD",
+        "memoria": "DDR4",
+        "socket": "LGA1200",
+        "formato": "M-ATX",
+        "chipset": "B560",
+        "modelo": "B560M GAMING HD",
+        "preco": "R$ 964,00"
+      },
+      {
+        "marca": "MSI PRO H610M-G",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel H610",
+        "modelo": "PRO-H610M-G",
+        "preco": "R$ 588,22"
+      },
+      {
+        "marca": "Asus PRIME H610M-A D4",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel H610",
+        "modelo": "PRIME-H610M-A-D4",
+        "preco": "R$ 823,00"
+      },
+      {
+        "marca": "AsRock B660M-HDV",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel B660",
+        "modelo": "B660M-HDV",
+        "preco": "R$ 882,00"
+      },
+      {
+        "marca": "Gigabyte B760M Aorus Elite",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel B760",
+        "modelo": "B760M-AORUS-ELITE",
+        "preco": "R$ 1.329,00"
+      },
+      {
+        "marca": "AsRock Z790M PG Lightning D4",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel Z790",
+        "modelo": "Z790MPG-LIGHTNING",
+        "preco": "R$ 1.447,00"
+      },
+      {
+        "marca": "Asus Prime B760M-A",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel B760M",
+        "modelo": "90MB1EK0-M1EAY0",
+        "preco": "R$ 1.529,00"
+      },
+      {
+        "marca": "Asus Prime B760M-A WIFI",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "M-ATX",
+        "chipset": "Intel B760",
+        "modelo": "90MB1EL0-M1EAY0",
+        "preco": "R$ 1.647,00"
+      },
+      {
+        "marca": "Gigabyte B760 Gaming X",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel B760",
+        "modelo": "B760-GAMING-X-DDR4",
+        "preco": "R$ 1.647,00"
+      },
+      {
+        "marca": "Asus TUF Gaming Z690-PLUS D4",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z690",
+        "modelo": "TUF GAMING Z690-PLUS D4",
+        "preco": "R$ 1.858,00"
+      },
+      {
+        "marca": "AsRock Z790 PRO RS",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "Z790-PRO-RS",
+        "preco": "R$ 1.905,00"
+      },
+      {
+        "marca": "Gigabyte B760 Aorus Elite",
+        "memoria": "DDR4",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel B760",
+        "modelo": "B760-AORUS-ELITE-DDR4",
+        "preco": "R$ 1.999,99"
+      },
+      {
+        "marca": "AsRock Z790 LiveMixer",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "Z790-LIVEMIXER",
+        "preco": "R$ 2.223,00"
+      },
+      {
+        "marca": "AsRock Z790 Steel Legend WiFi",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "Z790-STEEL-LEGEND-WIFI",
+        "preco": "R$ 2.505,00"
+      },
+      {
+        "marca": "Gigabyte Z790 Aorus Elite AX",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "Z790-AORUS-ELITE-AX",
+        "preco": "R$ 2.931,00"
+      },
+      {
+        "marca": "NZXT N7 Z790",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "N7-Z79XT-B1",
+        "preco": "R$ 3.505,00"
+      },
+      {
+        "marca": "Asus Rog Strix Z790-E Gaming Wifi II",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z790",
+        "modelo": "ROG-STRIX-Z790-E-GAMING-WIFI-II",
+        "preco": "R$ 4.823,00"
+      },
+      {
+        "marca": "MSI MPG Z690 Carbon WIFI",
+        "memoria": "DDR5",
+        "socket": "LGA1700",
+        "formato": "ATX",
+        "chipset": "Intel Z690",
+        "modelo": "MPG Z690 CARBON WIFI",
+        "preco": "R$ 4.941,00"
+      }
+    ]
+  },
+  "placasDeVideo": {
+    "AMD": [
+      {
+        "marca": "Mancer",
+        "modelo": "Radeon RX 550",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR5",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 529,40"
+      },
+      {
+        "marca": "XFX",
+        "modelo": "Radeon RX 550",
+        "VRAM": "2GB",
+        "tipo_memoria": "GDDR5",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 409,40"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "Radeon RX 550 Phoenix",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR5",
+        "preco": "R$ 560,00"
+      },
+      {
+        "marca": "ASRock",
+        "modelo": "Radeon RX 550 Phantom Gaming",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR5",
+        "preco": "R$ 529,99"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "Radeon RX 6400 EAGLE",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 799,99"
+      },
+      {
+        "marca": "Sapphire",
+        "modelo": "Pulse Radeon RX 6500 XT",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 950,00"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "Radeon RX 7600 GAMING OC",
+        "VRAM": "8GB",
+        "preco": "R$ 1.920,00"
+      },
+      {
+        "marca": "PowerColor",
+        "modelo": "Radeon RX 7700 XT Fighter",
+        "VRAM": "12GB",
+        "preco": "R$ 3.000,00"
+      },
+      {
+        "marca": "ASUS",
+        "modelo": "Radeon RX 6600 V2 Dual",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 2.111,00"
+      },
+      {
+        "marca": "Sapphire",
+        "modelo": "RX 7800 XT GAMING PULSE",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 4.588,22"
+      },
+      {
+        "marca": "ASRock",
+        "modelo": "RX 7800 XT Phantom Gaming 16G OC",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 4.470,58"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "Radeon RX 7900 XTX Gaming OC",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "384-bit",
+        "preco": "R$ 8.823,52"
+      },
+      {
+        "marca": "Sapphire",
+        "modelo": "Nitro+ AMD Radeon RX 7900 XTX Vapor-X",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "384-bit",
+        "preco": "R$ 13.689,00"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "TUF Gaming AMD Radeon RX 7900 XTX OC",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "384-bit",
+        "preco": "R$ 11.799,90"
+      },
+      {
+        "marca": "Sapphire",
+        "modelo": "Pulse AMD Radeon RX 7900 XTX",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "384-bit",
+        "preco": "R$ 12.659,00"
+      },
+      {
+        "marca": "Sapphire",
+        "modelo": "Radeon RX 7700 XT Pure OC",
+        "VRAM": "12GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "192-bit",
+        "preco": "R$ 3.647,05"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "Radeon RX 7600 XT Gaming OC",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.988,22"
+      },
+      {
+        "marca": "XFX",
+        "modelo": "Radeon RX7600 XT Speedster SWFT210",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.658,81"
+      },
+      {
+        "marca": "ASRock",
+        "modelo": "Radeon RX 6600 Challenger D",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-Bit",
+        "preco": "R$ 2.755,58"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "Radeon RX 7600 Gaming OC",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.070,58"
+      }
+    ],
+    "Nvidia": [
+      {
+        "marca": "Afox",
+        "modelo": "GeForce GTX750",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR5",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 541,00"
+      },
+      {
+        "marca": "EVGA",
+        "modelo": "GeForce GT 1030",
+        "VRAM": "2GB",
+        "tipo_memoria": "GDDR5",
+        "interface_memoria": "64-bit",
+        "preco": "R$ 401,00"
+      },
+      {
+        "marca": "Galax",
+        "modelo": "GeForce GTX 1630 EX",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 899,99"
+      },
+      {
+        "marca": "MSI",
+        "modelo": "GeForce GTX 1650 D6 Ventus XS OCV3",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 900,00"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "GeForce GTX 1650",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 860,00"
+      },
+      {
+        "marca": "Galax",
+        "modelo": "GeForce GTX 1650 EX PLUS",
+        "VRAM": "4GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 850,00"
+      },
+      {
+        "marca": "Galax",
+        "modelo": "GeForce RTX 3060 1-CLICK OC",
+        "VRAM": "8GB",
+        "preco": "R$ 1.890,00"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "GeForce RTX 3060 Gaming OC",
+        "VRAM": "12GB",
+        "preco": "R$ 3.200,00"
+      },
+      {
+        "marca": "Galax",
+        "modelo": "GeForce RTX 4060 Ti Click OC",
+        "VRAM": "8GB",
+        "preco": "R$ 2.500,00"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "Quadro RTX A5000",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 16.499,99"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "RTX 4090",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 15.499,99"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "RTX 4090 ROG Strix Edition",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 15.199,99"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "Quadro RTX A4000",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 8.271,43"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "RTX 4080 Super OC Gaming Verto EPIC-X RGB Triple Fan",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 8.470,58"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "RTX 4070Ti ROG Strix",
+        "VRAM": "12GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 7.999,99"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "RTX 4070 Ti",
+        "VRAM": "12GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 6.199,99"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "RTX 4060 TI XLR8 Gaming Verto Epic-x",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 2.941,16"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "Quadro RTX 5000 Ada Generation",
+        "VRAM": "32GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 32.941,17"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "Quadro RTX A5500",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6",
+        "preco": "R$ 21.647,05"
+      },
+      {
+        "marca": "Palit",
+        "modelo": "GeForce RTX 4090 Game Rock Omini Black",
+        "VRAM": "24GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 14.705,87"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "GeForce RTX 4080 Super ROG Strix OC Edition",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6X",
+        "preco": "R$ 10.941,17"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "GeForce RTX 4060 TI Verto",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.764,69"
+      },
+      {
+        "marca": "INNO3D",
+        "modelo": "GeForce RTX 4060 Ti Twin X2 OC White",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.764,69"
+      },
+      {
+        "marca": "Zotac",
+        "modelo": "GeForce RTX 4060 Ti AMP",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.717,64"
+      },
+      {
+        "marca": "INNO3D",
+        "modelo": "GeForce RTX 4060 Ti Twin X2 OC",
+        "VRAM": "16GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.647,05"
+      },
+      {
+        "marca": "Gigabyte",
+        "modelo": "GeForce RTX 4060 Ti Aero OC",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.411,75"
+      },
+      {
+        "marca": "Zotac",
+        "modelo": "GeForce RTX 4060 Ti Twin Edge OC White Edition",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 3.176,46"
+      },
+      {
+        "marca": "PNY",
+        "modelo": "GeForce RTX 4060 Gaming Verto",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.588,22"
+      },
+      {
+        "marca": "MSI",
+        "modelo": "GeForce RTX 4060 Ventus 2X White OC",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.588,22"
+      },
+      {
+        "marca": "Asus",
+        "modelo": "GeForce RTX 4060 OC",
+        "VRAM": "8GB",
+        "tipo_memoria": "GDDR6",
+        "interface_memoria": "128-bit",
+        "preco": "R$ 2.470,58"
+      }
+    ]
+  },
+  "memoriaRam": {
+    "DDR4": [
+      {
+        "marca": "Geil",
+        "modelo": "Evo Potenza",
+        "capacidade": "8GB",
+        "velocidade": "3200MHz",
+        "cor": "Não especificado",
+        "preco": "R$ 130,90"
+      },
+      {
+        "marca": "Geil",
+        "modelo": "Orion",
+        "capacidade": "8GB",
+        "velocidade": "3000MHz",
+        "cor": "Não especificado",
+        "preco": "R$ 137,90"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Beast RGB",
+        "capacidade": "8GB",
+        "velocidade": "3200MHz",
+        "cor": "Preto",
+        "preco": "R$ 167,90"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB RS",
+        "capacidade": "8GB",
+        "velocidade": "3200MHz",
+        "cor": "Black",
+        "preco": "R$ 183,90"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Dominator Platinum RGB",
+        "capacidade": "16GB (2x8GB)",
+        "velocidade": "3200MHz",
+        "cor": "White",
+        "preco": "R$ 567,90"
+      },
+      {
+        "marca": "G.Skill",
+        "modelo": "Aegis",
+        "capacidade": "16GB (2x8GB)",
+        "velocidade": "3000MHz",
+        "cor": "Black",
+        "preco": "R$ 254,90"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Renegade RGB",
+        "capacidade": "8GB",
+        "velocidade": "3600MHz",
+        "cor": "Não especificado",
+        "preco": "R$ 220,00"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Renegade RGB",
+        "capacidade": "16GB (2x8GB)",
+        "velocidade": "3600MHz",
+        "cor": "Não especificado",
+        "preco": "R$ 445,90"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Dominator Platinum",
+        "capacidade": "32GB (2x16GB)",
+        "velocidade": "3600MHz",
+        "cor": "White",
+        "preco": "R$ 827,90"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB RS",
+        "capacidade": "256GB",
+        "velocidade": "3200MHz",
+        "cor": "Preta",
+        "preco": "R$ 3.129,99"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB RS",
+        "capacidade": "128GB",
+        "velocidade": "3600MHz",
+        "cor": "Preta",
+        "preco": "R$ 2.229,99"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB PRO",
+        "capacidade": "32GB",
+        "velocidade": "3200MHz",
+        "cor": "Preta",
+        "preco": "R$ 1.447,94"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB RS",
+        "capacidade": "64GB",
+        "velocidade": "3600MHz",
+        "cor": "Preta",
+        "preco": "R$ 1.259,99"
+      },
+      {
+        "marca": "Team Group",
+        "modelo": "T-Create Expert",
+        "capacidade": "64GB",
+        "velocidade": "3600MHz",
+        "cor": "",
+        "preco": "R$ 1.089,99"
+      },
+      {
+        "marca": "Zadak",
+        "modelo": "Spark",
+        "capacidade": "32GB",
+        "velocidade": "3600MHz",
+        "cor": "Preta e Cinza",
+        "preco": "R$ 939,99"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance",
+        "capacidade": "32GB",
+        "velocidade": "3200MHz",
+        "cor": "Branca RGB PRO",
+        "preco": "R$ 939,99"
+      }
+    ],
+    "DDR5": [
+      {
+        "marca": "Rise Mode",
+        "modelo": "Z",
+        "capacidade": "16GB",
+        "velocidade": "4800MHz",
+        "cor": "Preto",
+        "preco": "R$ 388,22"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Beast",
+        "capacidade": "16GB",
+        "velocidade": "6000MHz",
+        "cor": "Branco",
+        "preco": "R$ 682,34"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Beast",
+        "capacidade": "16GB",
+        "velocidade": "5600MHz",
+        "cor": "Preto",
+        "preco": "R$ 564,69"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Beast RGB",
+        "capacidade": "16GB (2x8GB)",
+        "velocidade": "6000MHz",
+        "cor": "Preto",
+        "preco": "R$ 823,52"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB",
+        "capacidade": "32GB (2x16GB)",
+        "velocidade": "6200MHz",
+        "cor": "Preto",
+        "preco": "R$ 1.352,93"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Vengeance",
+        "capacidade": "32GB (2x16GB)",
+        "velocidade": "5600MHz",
+        "cor": "Preto",
+        "preco": "R$ 1.058,81"
+      }
+    ]
+  },
+  "Armazenamento": {
+    "HD": [
+      {
+        "marca": "HD",
+        "modelo": "WD Purple Pro",
+        "capacidade": "22TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "256MB",
+        "codigo": "WD221PURP",
+        "preco": "R$ 4.470,58"
+      },
+      {
+        "marca": "HD",
+        "modelo": "WD Purple",
+        "capacidade": "1TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "interface": "Sata III 2GB/s",
+        "cache": "256MB",
+        "codigo": "WDPURP",
+        "preco": "R$ 200,00"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Ironwolf",
+        "capacidade": "18TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "interface": "SATA III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST18000VN000",
+        "preco": "R$ 3.541,16"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Toshiba N300",
+        "capacidade": "18TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "cache": "512MB",
+        "codigo": "HDWG51JXZSTA",
+        "preco": "R$ 3.247,05"
+      },
+      {
+        "marca": "HD",
+        "modelo": "WD Red Pro NAS",
+        "capacidade": "14TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "interface": "Sata 6GB/s",
+        "cache": "512MB",
+        "codigo": "WD142KFGX",
+        "preco": "R$ 2.905,87"
+      },
+      {
+        "marca": "HD",
+        "modelo": "WD Purple",
+        "capacidade": "3TB",
+        "tamanho": "3.5",
+        "velocidade": "5400RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "256MB",
+        "codigo": "WD33PURZ",
+        "preco": "R$ 788,22"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Ironwolf",
+        "capacidade": "2TB",
+        "tamanho": "3.5",
+        "velocidade": "5400RPM",
+        "interface": "SATA III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST2000VN003",
+        "preco": "R$ 858,81"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Ironwolf",
+        "capacidade": "4TB",
+        "tamanho": "3.5",
+        "velocidade": "5400 RPM",
+        "interface": "SATA III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST4000VN006",
+        "preco": "R$ 1.035,28"
+      },
+      {
+        "marca": "HD",
+        "modelo": "WD Red Plus NAS",
+        "capacidade": "2TB",
+        "tamanho": "3.5",
+        "velocidade": "5400RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "64MB",
+        "codigo": "WD20EFPX",
+        "preco": "R$ 705,87"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Skyhawk",
+        "capacidade": "2TB",
+        "tamanho": "3.5",
+        "velocidade": "5400 RPM",
+        "interface": "SATA III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST2000VX017",
+        "preco": "R$ 552,93"
+      },
+      {
+        "marca": "HD",
+        "modelo": "WD Blue",
+        "capacidade": "2TB",
+        "tamanho": "3.5",
+        "velocidade": "7200 RPM",
+        "interface": "SATA III 6GB/s",
+        "cache": "256MB",
+        "codigo": "WD20EZBX",
+        "preco": "R$ 541,16"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Toshiba Surveillance S300",
+        "capacidade": "2TB",
+        "tamanho": "3.5",
+        "velocidade": "5400RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "128MB",
+        "codigo": "HDWT720UZSVA",
+        "preco": "R$ 529,40"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Toshiba Surveillance S200",
+        "capacidade": "1TB",
+        "tamanho": "3.5",
+        "velocidade": "5400RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "128MB",
+        "codigo": "HDWTSVA",
+        "preco": "R$ 229,40"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Skywawk",
+        "capacidade": "1TB",
+        "tamanho": "3.5",
+        "velocidade": "5400 RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST1000VX013",
+        "preco": "R$ 458,81"
+      },
+      {
+        "marca": "HD",
+        "modelo": "Seagate Skywawk",
+        "capacidade": "1TB",
+        "tamanho": "3.5",
+        "velocidade": "5400 RPM",
+        "interface": "Sata III 6GB/s",
+        "cache": "256MB",
+        "codigo": "ST1X013",
+        "preco": "R$ 250,00"
+      }
+    ],
+    "SSD": [
+      {
+        "marca": "Kingston",
+        "modelo": "A400",
+        "capacidade": "240GB",
+        "preco": "R$ 180,00"
+      },
+      {
+        "marca": "Sandisk",
+        "modelo": "Plus",
+        "capacidade": "240GB",
+        "preco": "R$ 190,00"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "A400",
+        "capacidade": "480GB",
+        "preco": "R$ 230,00"
+      },
+      {
+        "marca": "Sandisk",
+        "modelo": "Plus",
+        "capacidade": "480GB",
+        "preco": "R$ 237,00"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "A400",
+        "capacidade": "960GB",
+        "preco": "R$ 440,00"
+      },
+      {
+        "marca": "SanDisk",
+        "modelo": "Plus",
+        "capacidade": "1TB",
+        "preco": "R$ 430,00"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "NV2",
+        "capacidade": "1TB",
+        "interface": "M.2 2280",
+        "tecnologia": "PCIe NVMe",
+        "leitura": "3500MB/s",
+        "gravação": "2100MB/s",
+        "preco": "R$ 459,99"
+      },
+      {
+        "marca": "MSI",
+        "modelo": "Spatium M450",
+        "capacidade": "1TB",
+        "interface": "M.2 2280",
+        "tecnologia": "PCIe NVMe",
+        "leitura": "3600MB/s",
+        "gravação": "3000MB/s",
+        "preco": "R$ 509,99"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "Fury Renegade",
+        "capacidade": "2TB",
+        "preco": "R$ 1.500,00"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "Force MP600 PRO XT",
+        "capacidade": "2TB",
+        "preco": "R$ 1.200,00"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "DC600M",
+        "capacidade": "3.84TB",
+        "tamanho": "2.5",
+        "interface": "Sata III 6GB/s",
+        "codigo": "SEDC600M/3840G",
+        "preco": "R$ 3.823,52"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "MP600 Pro LPX",
+        "capacidade": "4TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "7100MB/s",
+        "gravacao": "6800MB/s",
+        "codigo": "CSSD-F4000GBMP600PLPW",
+        "preco": "R$ 3.529,40"
+      },
+      {
+        "marca": "Kingspec",
+        "modelo": "VP101",
+        "capacidade": "2TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "10000MB/s",
+        "gravacao": "10000MB/s",
+        "codigo": "VP101-2000",
+        "preco": "R$ 2.823,52"
+      },
+      {
+        "marca": "Corsair",
+        "modelo": "MP700 Pro",
+        "capacidade": "2TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "12400MB/s",
+        "gravacao": "11800MB/s",
+        "codigo": "CSSD-F2000GBMP700PHX",
+        "preco": "R$ 2.941,17"
+      },
+      {
+        "marca": "Team Group",
+        "modelo": "T-Force Cardea Z44Q",
+        "capacidade": "4TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVme",
+        "leitura": "5000MB/s",
+        "gravacao": "4000MB/s",
+        "codigo": "TM8FPQ004T0C327",
+        "preco": "R$ 2.294,11"
+      },
+      {
+        "marca": "WD",
+        "modelo": "Black SN850X",
+        "capacidade": "2TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "7300 MB/s",
+        "gravacao": "6600 MB/s",
+        "codigo": "WDS200T2XHE",
+        "preco": "R$ 1.764,69"
+      },
+      {
+        "marca": "Apacer",
+        "modelo": "AS2280Q4L",
+        "capacidade": "2TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "3600MB/s",
+        "gravacao": "2800MB/s",
+        "codigo": "AP2TBAS2280Q4L-1",
+        "preco": "R$ 1.647,05"
+      },
+      {
+        "marca": "Sandisk",
+        "modelo": "Extreme",
+        "capacidade": "2 TB",
+        "tamanho": "M.2 2280",
+        "interface": "PCIe NVMe",
+        "leitura": "5150 MB/s",
+        "gravacao": "4850 MB/s",
+        "codigo": "SDSSDX3N-2TOO-G26",
+        "preco": "R$ 1.235,28"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "DC600M",
+        "capacidade": "1.92TB",
+        "tamanho": "2.5",
+        "interface": "Sata III 6GB/s",
+        "codigo": "SEDC600M/1920G",
+        "preco": "R$ 1.882,34"
+      },
+      {
+        "marca": "Kingston",
+        "modelo": "DC600M",
+        "capacidade": "960GB",
+        "tamanho": "2.5",
+        "interface": "Sata III 6GB/s",
+        "codigo": "SEDC600M/960G",
+        "preco": "R$ 1.147,05"
+      }
+    ]
+  },
+  "Fontes": [
+    {
+      "marca": "Redragon",
+      "modelo": "RGPS",
+      "potencia": "400W",
+      "certificação": "80 Plus White",
+      "PFC": "Ativo",
+      "preco": "R$ 184,00"
+    },
+    {
+      "marca": "Aerocool",
+      "modelo": "KCAS",
+      "potencia": "400W",
+      "certificação": "80 Plus White",
+      "PFC": "Ativo",
+      "preco": "R$ 209,00"
+    },
+    {
+      "marca": "Gigabyte",
+      "modelo": "P450B",
+      "potencia": "450W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "preco": "R$ 229,00"
+    },
+    {
+      "marca": "Redragon",
+      "modelo": "RGPS",
+      "potencia": "500W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "preco": "R$ 259,00"
+    },
+    {
+      "marca": "Aerocool",
+      "modelo": "KCAS",
+      "potencia": "500W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "preco": "R$ 239,00"
+    },
+    {
+      "marca": "Corsair",
+      "modelo": "CV550",
+      "potencia": "550W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "preco": "R$ 369,00"
+    },
+    {
+      "marca": "SuperFrame",
+      "potencia": "600W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "cabos": "Flat",
+      "preco": "R$ 300,00"
+    },
+    {
+      "marca": "Gigabyte",
+      "modelo": "P650B",
+      "potencia": "650W",
+      "certificação": "80 Plus Bronze",
+      "PFC": "Ativo",
+      "preco": "R$ 369,00"
+    },
+    {
+      "marca": "Corsair",
+      "modelo": "RM750E",
+      "potencia": "750W",
+      "certificação": "80 Plus Gold",
+      "PFC": "Ativo",
+      "conector": "PCIe 5.0",
+      "modularidade": "Full Modular",
+      "preco": "R$ 850,00"
+    },
+    {
+      "marca": "Gigabyte",
+      "modelo": "GPUD850GM",
+      "potencia": "850W",
+      "certificação": "80 Plus Gold",
+      "PFC": "Ativo",
+      "modularidade": "Full Modular",
+      "preco": "R$ 950,00"
+    }
+  ],
+  "Gabinetes": [
+    {
+      "marca": "Ninja",
+      "modelo": "Hadria",
+      "tipo": "Mid Tower",
+      "RGB": true,
+      "cor": "Black",
+      "compatibilidade": "ATX",
+      "fonte": "Sem Fonte",
+      "fans_inclusos": 1,
+      "preco": "R$ 229,00"
+    },
+    {
+      "marca": "Ninja",
+      "modelo": "Cloud",
+      "tipo": "Mid Tower",
+      "vidro_temperado": true,
+      "cor": "White",
+      "compatibilidade": "ATX",
+      "preco": "R$ 219,00"
+    },
+    {
+      "marca": "SilverStone",
+      "modelo": "Fara H1M",
+      "tipo": "Mini Tower",
+      "vidro_temperado": true,
+      "cor": "Black",
+      "compatibilidade": "Micro-ATX",
+      "fonte": "Sem Fonte",
+      "fans_inclusos": 1,
+      "preco": "R$ 199,00"
+    },
+    {
+      "marca": "Alseye",
+      "modelo": "AS305",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "ATX",
+      "vidro_temperado": true,
+      "cor": "Branco",
+      "preco": "R$ 188,00"
+    },
+    {
+      "marca": "Alseye",
+      "modelo": "Frost",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "Micro-ATX",
+      "vidro_temperado": true,
+      "cor": "Branco",
+      "preco": "R$ 199,99"
+    },
+    {
+      "marca": "BlueCase",
+      "modelo": "Frost Storm BG-018",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "ATX",
+      "RGB": true,
+      "vidro_temperado": true,
+      "cor": "Branco",
+      "preco": "R$ 211,00"
+    },
+    {
+      "marca": "OnePower",
+      "modelo": "Fractal",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "Micro-ATX",
+      "vidro_temperado": true,
+      "cor": "Preto",
+      "preco": "R$ 235,00"
+    },
+    {
+      "marca": "Aigo Darkflash",
+      "modelo": "DS900",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "ATX",
+      "vidro_temperado": true,
+      "cor": "Preto",
+      "preco": "R$ 258,00"
+    },
+    {
+      "marca": "Rise Mode",
+      "modelo": "Glass 06X",
+      "tipo": "Mid Tower",
+      "compatibilidade": "Micro-ATX",
+      "preco": "R$ 170,00"
+    },
+    {
+      "marca": "SuperFrame",
+      "modelo": "Storm",
+      "tipo": "Mid Tower",
+      "compatibilidade": "ATX",
+      "RGB": true,
+      "preco": "R$ 199,00"
+    },
+    {
+      "marca": "Rise Mode",
+      "modelo": "Galaxy Glass Standard",
+      "tipo": "Mid Tower",
+      "RGB": true,
+      "ARGB": true,
+      "compatibilidade": "ATX",
+      "vidro_temperado": true,
+      "fans_inclusos": 10,
+      "cor": "Branco",
+      "preco": "R$ 400,00"
+    },
+    {
+      "marca": "Redragon",
+      "modelo": "Wideload",
+      "tipo": "Mid Tower",
+      "vidro_temperado": true,
+      "compatibilidade": "Micro-ATX",
+      "cor": "Preto",
+      "preco": "R$ 480,00"
+    },
+    {
+      "marca": "Corsair",
+      "modelo": "4000D Airflow",
+      "tipo": "Mid Tower",
+      "vidro_temperado": true,
+      "cor": "Branco",
+      "compatibilidade": "ATX",
+      "fans_inclusos": true,
+      "preco": "R$ 600,00"
+    },
+    {
+      "marca": "Hyte",
+      "modelo": "Y40",
+      "tipo": "Mid Tower",
+      "vidro_temperado": true,
+      "cor": "Preto",
+      "compatibilidade": "ATX",
+      "fans_inclusos": 2,
+      "preco": "R$ 700,00"
+    },
+    {
+      "marca": "Thermaltake",
+      "modelo": "CTE E600 MX",
+      "tipo": "Mid-Tower",
+      "compatibilidade": "ATX",
+      "vidro_temperado": true,
+      "cor": "Preto",
+      "preco": "R$ 2.235,00"
+    },
+    {
+      "marca": "Deepcool",
+      "modelo": "CH780",
+      "tipo": "Full-Tower",
+      "RGB": true,
+      "compatibilidade": "Micro-ATX",
+      "vidro_temperado": true,
+      "fans_inclusos": 3,
+      "cor": "Preto",
+      "preco": "R$ 1.623,00"
+    },
+    {
+      "marca": "NZXT",
+      "modelo": "H6 Flow",
+      "tipo": "Mid-Tower",
+      "RGB": true,
+      "compatibilidade": "ATX",
+      "vidro_temperado": true,
+      "fans_inclusos": 3,
+      "cor": "Branco",
+      "preco": "R$ 1.176,00"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<h1 *ngIf=!etapas.mostrarResultado>Bem-Vindo(a) ao Assistente de Seleção de Hardware</h1>
+<main *ngIf=!etapas.mostrarResultado class="main-container card-requirements card">
+
+  <div class="container-pc" >
+    <img class="cpu-img" src="../../../assets/imgs/welcome_2023.webp" alt="">
+  </div>
+  <div>
+
+
+    <section>
+      <div class="container" >
+        <div id="step1">
+
+
+          <h2>Vamos começar, nos diga como você quer seu computador?</h2>
+          <h3>Qual o objetivo principal para o uso do PC?</h3>
+          <div class="options">
+            <button class="objective-btn" id="uso" (click)="displayStep2('Uso Geral')">{{perfisUsuario[0]}}</button>
+            <button class="objective-btn" id="games" (click)="displayStep2('Jogos')">{{perfisUsuario[1]}}</button>
+            <button class="objective-btn" id="video"
+              (click)="displayStep2('Edição de Vídeo')">{{perfisUsuario[2]}}</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section *ngIf=etapas.mostrarFaixaPreco>
+      <div class="container" >
+        <h3>Selecione uma faixa de preço</h3>
+        <div *ngIf="dadosDoUsuario.perfil.includes('Uso Geral')" class="options">
+          <button id="priceEntry" (click)="displayStep3(1000, 2000)">R$ 2.000,00 - PC de entrada</button>
+          <button id="priceM" (click)="displayStep3(2000, 3000)">R$ 2.000,00 - R$ 3.000,00 - PC Modesto</button>
+        </div>
+        <div *ngIf="!dadosDoUsuario.perfil.includes('Uso Geral')" class="options">
+          <button id="priceIntermediate" (click)="displayStep3(3000, 5000)">R$ 3.000,00 - R$ 5.000,00 - PC
+            Intermediário</button>
+          <button id="priceAdvanced" (click)="displayStep3(5000, 10000)">R$ 5.000,00 - R$ 10.000,00 - PC
+            Avançado</button>
+          <button id="priceSupreme" (click)="displayStep3(10000, 50000)">R$ 10.000,00+ - PC Supremo</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section *ngIf=etapas.mostrarTiposDeCpu>
+      <div class="container">
+        <h3>Qual o tipo de processador?</h3>
+        <div class="options">
+
+          <button id="intelProcessor" (click)="displayStep4('Intel')">Intel</button>
+          <button id="amdProcessor" (click)="displayStep4('AMD')">AMD</button>
+        </div>
+      </div>
+    </section>
+
+    <section *ngIf=etapas.mostrarTiposDeGpu>
+      <div class="container">
+        <h3>Qual o tipo de GPU?</h3>
+        <div class="options">
+          <button id="intelProcessor" (click)="displayStep5('Nvidia')">Nvidia</button>
+          <button id="amdProcessor" (click)="displayStep5('AMD')">AMD</button>
+        </div>
+      </div>
+    </section>
+
+    <section *ngIf=etapas.mostrarSePrefMarca>
+      <div class="container">
+        <h3>Você têm preferência por alguma fabricante de placa de Vídeo? </h3>
+        <div class="options">
+          <button id="prefBrand" (click)="displayStep6('sim')">SIM</button>
+          <button id="noPrefBrand" (click)="displayStep6('nao')">NÃO</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section *ngIf=etapas.mostrarFabricanteGpu>
+      <div class="container">
+        <h3>Informe o fabricante da GPU:</h3>
+        <div class="options">
+          <!-- <label for="gpuBrand">Marca:</label>
+          <input id="gpuBrand" type="text" placeholder="Asus" [(ngModel)]="dadosDoUsuario.fabricanteDaPlacaDeVideo"
+            (change)="displayStep7()"> -->
+            <form>
+              <input name="name" autocomplete="off" required [(ngModel)]="dadosDoUsuario.fabricanteDaPlacaDeVideo"  (change)="displayStep7()"/>
+              <label for="name">
+                <span>Marca da Fabricante</span>
+              </label>
+            </form>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</main>
